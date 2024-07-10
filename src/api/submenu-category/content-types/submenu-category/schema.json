@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "submenu_categories",
+  "info": {
+    "singularName": "submenu-category",
+    "pluralName": "submenu-categories",
+    "displayName": "SubmenuCategory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "links": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.link"
+    }
+  }
+}

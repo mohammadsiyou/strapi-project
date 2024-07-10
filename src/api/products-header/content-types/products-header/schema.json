@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "products_headers",
+  "info": {
+    "singularName": "products-header",
+    "pluralName": "products-headers",
+    "displayName": "ProductsHeader"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

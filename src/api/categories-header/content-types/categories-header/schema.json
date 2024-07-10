@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "categories_headers",
+  "info": {
+    "singularName": "categories-header",
+    "pluralName": "categories-headers",
+    "displayName": "CategoriesHeader"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}
